@@ -1,4 +1,17 @@
 # Tokopedia-testing-portfolio
-simple testing untuk tokopedia
+Simple testing untuk tokopedia
 
-note untuk mencoba test case yang memerlukan login gunakan auto login melalui browser port=9222 atau jika lokasi chrome adalah default bisa menggunakan : C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\ChromeDebug"
+untuk mencoba test case yang memerlukan Remote Debugging di Chrome sebelum menjalankan skrip automasi ini agar koneksi ke port 9222 berhasil
+
+jika lokasi chrome adalah default bisa menggunakan :
+
+ ```bash
+ C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\ChromeDebug"
+```
+
+setelah melakukan login pada browser yang terbuka lakukan login ke tokopedia dan biarkan browser tetap terbuka sambil menjalankan test case yang memerlukan login seperti TC-10, 11, dsb
+
+
+---
+> **Note:**
+> TC-01 sampai TC-07 tidak dibuat karena tokopedia membatasi akses untuk register dan login
